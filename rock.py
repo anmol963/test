@@ -6,4 +6,8 @@ if a%2==0:
     else:
         print(" and less than twenty")
 else:
-    print("odd")
+    print("odd",end="")
+    if a>20:
+        print(" and greater than 20")
+    else:
+        print(" and less than 20")
